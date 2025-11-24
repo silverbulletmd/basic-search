@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "build": "deno run -A https://github.com/silverbulletmd/silverbullet/releases/download/edge/plug-compile.js -c deno.json search.plug.yaml"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["no-explicit-any"]
+    }
+  },
+  "fmt": {
+    "exclude": ["*.md", "**/*.md", "*.plug.js"]
+  },
+  "imports": {
+    "@silverbulletmd/silverbullet": "jsr:@silverbulletmd/silverbullet@^2.3.0",
+    "porter-stemmer": "npm:porter-stemmer@0.9.1"
+  }
+}

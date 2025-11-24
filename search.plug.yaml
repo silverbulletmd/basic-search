@@ -1,0 +1,10 @@
+name: search
+functions:
+  indexPage:
+    path: search.ts:indexPage
+    events:
+      - page:index
+
+  ftsSearch:
+    path: ./engine.ts:ftsSearch
+    syscall: search.ftsSearch
