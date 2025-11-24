@@ -3,6 +3,9 @@ Previously a built-in plug for SilverBullet, now installable separately for thos
 
 Generally it is recommended you use [Silversearch](https://github.com/MrMugame/silversearch) instead. It’s a bit heavier weight, but produces _significantly_ better results.
 
+## Install
+Using `Library: Install` enter as URI: `https://github.com/silverbulletmd/basic-search/blob/main/PLUG.md`
+
 ## Build
 To build this plug, make sure you have [Deno installed](https://docs.deno.com/runtime/). Then, build the plug with:
 
